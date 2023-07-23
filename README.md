@@ -11,3 +11,14 @@
 4. Setting up Webpack Dev Server
    1. npm i --save-dev webpack-dev-server
    2. It appears that webpack-dev-server doesn't serve the content from the dist folder
+5. Configuring css loaders in webpack
+   1. https://blog.jakoblind.no/css-modules-webpack/
+   2. npm i --save-dev style-loader css-loader
+      1. In this way css is inserted in the bundle.js
+   3. npm i --save-dev mini-css-extract-plugin
+      1. Using this plugin we are extracting css files from bundle.js
+
+## Links
+
+1. https://blog.jakoblind.no/
+2. https://github.com/webpack-contrib/css-loader#recommend
