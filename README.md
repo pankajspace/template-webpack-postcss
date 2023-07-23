@@ -16,6 +16,8 @@
       1. In this way css is inserted in the bundle.js
    2. npm i --save-dev mini-css-extract-plugin
       1. Using this plugin we are extracting css files from bundle.js
+6. Adding jQuery using webpack
+   1. npm i jquery
 
 ## Links
 
