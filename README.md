@@ -21,6 +21,6 @@
 
 ## Links
 
-1. https://blog.jakoblind.no/
+1. [Webpack Asset Management](https://webpack.js.org/guides/asset-management/)
 2. [Configuring CSS and CSS Modules](https://blog.jakoblind.no/css-modules-webpack/)
 3. https://github.com/webpack-contrib/css-loader#recommend
