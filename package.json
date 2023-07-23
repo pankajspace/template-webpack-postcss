@@ -4,7 +4,7 @@
   "description": "1. npm init -y",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/pankajspace/react-webpack-template/issues"
   },
-  "homepage": "https://github.com/pankajspace/react-webpack-template#readme"
+  "homepage": "https://github.com/pankajspace/react-webpack-template#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
 }
