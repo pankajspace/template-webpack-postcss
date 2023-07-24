@@ -24,3 +24,4 @@
 1. [Webpack Asset Management](https://webpack.js.org/guides/asset-management/)
 2. [Configuring CSS and CSS Modules](https://blog.jakoblind.no/css-modules-webpack/)
 3. https://github.com/webpack-contrib/css-loader#recommend
+4. [CSS Modules](https://css-tricks.com/css-modules-part-1-need/)
