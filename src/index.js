@@ -1,9 +1,9 @@
 import "./index.css";
-import homeStyles from "./home.module.css";
-import aboutStyles from "./about.module.css";
+import homeStyles from "./home.css";
+import aboutStyles from "./about.css";
 import webpackLogo from "./img/webpack.png";
 
-console.log('Hello Webpack');
+console.log('Hello Webpack', homeStyles);
 
 $(".hello").html("Hello Webpack");
 
@@ -13,5 +13,12 @@ $("#css-modules-1").addClass(homeStyles.color);
 $("#css-modules-2").addClass(aboutStyles.color);
 
 $("#image").addClass(homeStyles.image);
+
+$("#outer").addClass(homeStyles.outer);
+$("#inner").addClass(homeStyles.inner);
+
+
+
+
 
 
