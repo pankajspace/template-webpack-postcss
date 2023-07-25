@@ -18,10 +18,21 @@
       1. Using this plugin we are extracting css files from bundle.js
 6. Adding jQuery using webpack
    1. npm i jquery
+7. Adding PostCSS using webpack
+   1. npm i --save-dev postcss-loader postcss
+   2. npm i postcss-preset-env
+   3. npm i --save-dev autoprefixer
 
 ## Links
 
 1. [Webpack Asset Management](https://webpack.js.org/guides/asset-management/)
 2. [Configuring CSS and CSS Modules](https://blog.jakoblind.no/css-modules-webpack/)
-3. https://github.com/webpack-contrib/css-loader#recommend
+3. [CSS loader](https://github.com/webpack-contrib/css-loader#recommend)
 4. [CSS Modules](https://css-tricks.com/css-modules-part-1-need/)
+5. [Mini CSS Extract Plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
+6. [jQuery](https://jquery.com/)
+7. [PostCSS Loader](https://webpack.js.org/loaders/postcss-loader/)
+8. [PostCSS Preset Env](https://www.npmjs.com/package/postcss-preset-env)
+   1. PostCSS Preset Env lets you convert modern CSS into something most browsers can understand, determining the polyfills you need based on your targeted browsers or runtime environments.
+9. [Autoprefixer](https://www.npmjs.com/package/autoprefixer)
+   1. PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. It is recommended by Google and used in Twitter and Alibaba.
