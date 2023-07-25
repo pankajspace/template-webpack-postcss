@@ -20,7 +20,7 @@
    1. npm i jquery
 7. Adding PostCSS using webpack
    1. npm i --save-dev postcss-loader postcss
-   2. npm i postcss-preset-env
+   2. npm i --save-dev postcss-preset-env
    3. npm i --save-dev autoprefixer
 8. Adding ESLint
    1. npm i --save-dev eslint
