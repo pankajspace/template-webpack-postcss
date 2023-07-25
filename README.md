@@ -22,6 +22,9 @@
    1. npm i --save-dev postcss-loader postcss
    2. npm i postcss-preset-env
    3. npm i --save-dev autoprefixer
+8. Adding ESLint
+   1. npm i --save-dev eslint
+   2. touch .eslintrc.js
 
 ## Links
 
