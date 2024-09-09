@@ -5,7 +5,7 @@ import webpackLogo from "./img/webpack.png";
 
 console.log('Hello Webpack', homeStyles);
 
-$(".hello").html("Hello Webpack");
+$("#hello").html("Hello Webpack");
 
 $("#image").attr("src", webpackLogo);
 
